@@ -1,0 +1,30 @@
+# 核心依赖
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+datasets>=2.10.0
+numpy>=1.21.0
+pandas>=1.5.0
+tqdm>=4.64.0
+
+# 深度学习相关
+torch-audio>=2.0.0
+torchvision>=0.15.0
+
+# 实用工具
+pyyaml>=6.0
+jsonlines>=3.0.0
+wandb>=0.15.0
+tensorboard>=2.13.0
+
+# 开发工具
+pytest>=7.0.0
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+pre-commit>=3.0.0
+
+# 可选依赖（根据需要安装）
+# vllm>=0.8.2  # 推理加速
+# sglang  # SGLang 支持
+# flash-attn  # Flash Attention
